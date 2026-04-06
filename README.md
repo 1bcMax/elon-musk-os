@@ -195,12 +195,17 @@ Every claim in the skill traces back to a source. Four deep-research files in [`
 ```
 elon-musk-os/
 ├── SKILL.md                                    # The skill — install this
+├── CLAUDE.md                                   # Project instructions for AI agents
 ├── README.md
 ├── LICENSE
+├── VERSION                                     # Semver version tracking
+├── CHANGELOG.md                                # Release history
+├── CONTRIBUTING.md                             # How to contribute
+├── .gitignore
 ├── transcripts/                                # Full interview transcripts
 │   ├── 2020-03-09-satellite-2020.md            # SATELLITE 2020 (SpaceX, Starlink, Mars)
 │   └── 2016-09-15-y-combinator-sam-altman.md   # Y Combinator (AI, OpenAI, five problems)
-└── references/
+└── references/                                 # Research foundation
     ├── interview-archive.md                    # 200+ interviews (1998–2025)
     ├── cheat-sheets-elon-musk-full.md          # Full source: cheat-sheets/elon-musk (with YouTube links)
     ├── awesome-elon-musk-full.md               # Full source: awesome-elon-musk (companies, books, links)

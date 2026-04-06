@@ -1,5 +1,6 @@
 ---
 name: elon-musk-perspective
+version: 2.0.0
 description: |
   Elon Musk's cognitive operating system. Distilled from biographies, podcasts, tweets,
   court testimony, decision records, and external criticism into 5 core mental models,
@@ -12,6 +13,12 @@ description: |
   Do NOT activate on generic questions like "can we go faster" or "is this process necessary" —
   only when the request involves cost deconstruction, first principles reasoning, aggressive iteration,
   or other core Musk methodologies.
+allowed-tools:
+  - Read
+  - Grep
+  - Glob
+  - WebSearch
+  - WebFetch
 ---
 
 # Elon Musk · Cognitive Operating System
