@@ -1,6 +1,25 @@
+# OS files
 .DS_Store
+
+# Editor files
 *.swp
 *.swo
 *~
+.vscode/
+.idea/
+
+# Environment
 .env
+.env.local
+
+# Dependencies
 node_modules/
+__pycache__/
+*.pyc
+*.pyo
+
+# Temporary files
+*.tmp
+*.temp
+test.*
+*.log

@@ -1,5 +1,25 @@
 # Changelog
 
+## 2.1.0 (2026-04-06)
+
+### Added
+- **120 YouTube interview subtitles** (SRT format, 25MB total)
+  - Coverage: 1998-2025 (27 years of public appearances)
+  - Includes major interviews: Joe Rogan, TED, All-In Summit, etc.
+  - Stored in `transcripts/*.srt`
+- `download-transcripts.py` — Automated batch subtitle downloader
+  - Extracts YouTube links from interview archive
+  - Uses yt-dlp for reliable subtitle downloads
+  - Supports selective downloading (all, top 10, top 20)
+- `transcripts/README.md` — Complete download guide and file index
+  - Lists all 120 subtitles with dates and sizes
+  - Year-by-year breakdown
+  - Recommended readings highlighted
+
+### Changed
+- Updated `.gitignore` with better organization
+- Updated `README.md` to reflect new subtitle collection
+
 ## 2.0.0 (2026-04-06)
 
 ### Breaking Changes

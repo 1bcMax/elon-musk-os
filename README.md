@@ -157,9 +157,19 @@ Highlights:
 | SolarCity court testimony | Frame rejection under oath |
 | Elon vs. Jack Ma (2019) | First principles vs. philosophy, live |
 
-### No Transcript? Generate One.
+### Transcripts Available
 
-- **[youtube2transcripts](https://github.com/madeyexz/youtube2transcripts)** — Batch transcription with speaker ID (Gemini-powered)
+**120 interview subtitles (SRT format) from 1998-2025, totaling 25MB.**
+
+Run the download script to get them:
+
+```bash
+python3 download-transcripts.py
+```
+
+Tools used:
+- **[yt-dlp](https://github.com/yt-dlp/yt-dlp)** — Download subtitles from YouTube
+- **[youtube2transcripts](https://github.com/madeyexz/youtube2transcripts)** — Batch transcription with speaker ID
 - **[whisper-youtube](https://github.com/ArthurFDLR/whisper-youtube)** — Whisper via Google Colab
 
 ---
@@ -202,9 +212,12 @@ elon-musk-os/
 ├── CHANGELOG.md                                # Release history
 ├── CONTRIBUTING.md                             # How to contribute
 ├── .gitignore
-├── transcripts/                                # Full interview transcripts
-│   ├── 2020-03-09-satellite-2020.md            # SATELLITE 2020 (SpaceX, Starlink, Mars)
-│   └── 2016-09-15-y-combinator-sam-altman.md   # Y Combinator (AI, OpenAI, five problems)
+├── transcripts/                                # Interview subtitles (SRT format)
+│   ├── README.md                               # Transcript download guide
+│   ├── download-transcripts.py                 # Batch download script
+│   └── *.srt                                   # 120 subtitles (1998-2025, 25MB)
+│   ├── 2020-03-09-satellite-2020.md            # SATELLITE 2020 transcript
+│   └── 2016-09-15-y-combinator-sam-altman.md   # Y Combinator transcript
 └── references/                                 # Research foundation
     ├── interview-archive.md                    # 200+ interviews (1998–2025)
     ├── cheat-sheets-elon-musk-full.md          # Full source: cheat-sheets/elon-musk (with YouTube links)
