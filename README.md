@@ -2,265 +2,227 @@
 
 # Elon Musk OS
 
-> *"The only rules you have to follow are the laws of physics — everything else is a recommendation."*
+**Think like Musk. Not his quotes — his cognitive machinery.**
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Claude Code](https://img.shields.io/badge/Claude%20Code-Skill-blueviolet)](https://claude.ai/code)
-[![Interviews](https://img.shields.io/badge/Interviews-200%2B-blue)](#interview-archive)
-
-<br>
-
-**Elon Musk's cognitive operating system. Not a quote collection — a runnable thinking framework.**
-
-<br>
-
-Distilled from Walter Isaacson's biography, Joe Rogan / Lex Fridman long-form podcasts,<br>
-Everyday Astronaut factory tours, 200+ interviews (1998–2025), court testimony,<br>
-SEC filings, and 30+ primary sources into<br>
-**5 core mental models, 8 decision heuristics, and a complete expression DNA.**
-
-[See it in action](#examples) · [Install](#install) · [What's distilled](#whats-distilled) · [Interview Archive](#interview-archive) · [Research Sources](#research-sources)
+[![Interviews](https://img.shields.io/badge/Interviews-200%2B_Archived-blue)](#the-archive)
 
 </div>
 
 ---
 
-## Examples
+## What Is This?
 
-### Q: My SaaS charges $50/month but margins keep shrinking. How do I optimize?
+A [Claude Code skill](https://claude.ai/code) that loads Elon Musk's thinking framework into your AI assistant. When activated, Claude doesn't parrot Musk quotes — it applies his actual decision-making machinery to whatever problem you throw at it.
 
-```
-Musk      ❯ First, do the math.
+Built from 200+ interviews (1998–2025), two authorized biographies, court transcripts, SEC filings, and earnings calls. Every mental model is traced to a verifiable source.
 
-            What's your $50 made of? Infrastructure? Headcount? Payment fees?
-            Break every line item down to raw material level.
-
-            The asymptotic limit of compute is roughly 1/10th of current prices —
-            cloud providers layer massive markup in between.
-            Calculate the Idiot Index: what you pay AWS / actual compute cost.
-            Above 5? Consider vertically integrating your compute.
-
-            But hold on. Step one of The Algorithm:
-            Why does this feature exist?
-
-            How many features exist because "the competitor has it"?
-            Delete those. Infrastructure requirements drop by half.
-
-            Optimizing something that shouldn't exist is the biggest waste.
-```
-
-### Q: The AI Agent space is hot. Who wins?
-
-```
-Musk      ❯ Everyone's asking "who wins." Wrong question.
-
-            The right question: what is the asymptotic limit of an Agent?
-            A perfect Agent should complete any cognitive labor at zero marginal cost.
-            Current Idiot Index: probably 100+ — needs humans watching,
-            constant correction, hand-crafted prompts. Huge improvement space.
-
-            Who wins? Whoever controls the full stack.
-
-            Look at Tesla: we control batteries, chips, software,
-            charging network, data collection.
-            Every car sold = one more self-driving data point. Flywheel.
-
-            AI Agents are the same.
-            Whoever controls model, toolchain, UI, and data wins.
-            Every middleman layer is charging an information opacity tax.
-```
-
-### Q: Team suggests slowing down for more research. Thoughts?
-
-```
-Musk      ❯ Who said that? Name.
-
-            Step one of The Algorithm: question the requirement.
-            "More research" — who proposed it?
-            What evidence shows current speed is causing irreversible harm?
-
-            Most "slow down" suggestions are fear disguised as rationality.
-
-            Manufacturing is 10x harder than design.
-            Every day on research is a day not learning from building.
-
-            Tesla Model 3 production hell taught me more than any study.
-            I slept on the factory floor. Tore out the automation line.
-            Rebuilt with humans. The mistake itself was the learning.
-
-            If your product won't kill anyone when it fails? Ship it. Tomorrow.
-```
-
-### Q: I want to start a company but the market is crowded
-
-```
-Musk      ❯ You're reasoning by analogy.
-            "Others are doing it so I shouldn't" — the worst way to think.
-
-            2002: I founded SpaceX. Boeing and Lockheed had built rockets
-            for decades. Everyone said "no opportunity."
-            They equated "many players" with "problem solved."
-
-            Calculate the asymptotic limit.
-            Current steps to complete a task? Physics-minimum steps? Gap?
-
-            10x gap means everyone is incrementally improving
-            on the same wrong assumption.
-            Like every rocket company assumed rockets were disposable.
-
-            You don't need a "better X."
-            Find the assumption everyone accepts but physics doesn't require.
-            Then destroy it.
-
-            Build a version that will fail. Tomorrow. Not next month.
-```
-
-> Full 4-round conversation examples in [`examples/`](examples/).
-
-This isn't ChatGPT wearing a Musk mask. Every response runs Musk's specific mental models — Asymptotic Limit Thinking, The Algorithm, Vertical Integration as Physics, Iterate Fast > Perfect Plans. It doesn't recite quotes — it applies Musk's cognitive framework to deconstruct your problem.
+**This is not a chatbot persona. It's a cognitive tool.**
 
 ---
 
-## Install
+## Try It
 
 ```bash
 npx skills add 1bcMax/elon-musk-os
 ```
 
-Then in Claude Code:
+Then ask Claude anything:
 
 ```
-> Use Musk's perspective to deconstruct this cost structure
-> What's the Idiot Index of this approach?
-> Run The Algorithm on our product workflow
-> How would Musk evaluate this decision?
+> What's the Idiot Index of our cloud infrastructure?
+> Run The Algorithm on our onboarding flow
+> Deconstruct this cost structure from first principles
 ```
 
 ---
 
-## What's Distilled
+## What Happens When You Activate It
+
+You ask about shrinking SaaS margins:
+
+```
+First, do the math.
+
+What's your $50 made of? Infrastructure? Headcount? Payment fees?
+Break every line item down to raw material level.
+
+The asymptotic limit of compute is roughly 1/10th of current prices —
+cloud providers layer massive markup in between.
+Calculate the Idiot Index: what you pay AWS / actual compute cost.
+Above 5? Consider vertically integrating your compute.
+
+But hold on. Step one of The Algorithm:
+Why does this feature exist?
+
+How many features exist because "the competitor has it"?
+Delete those. Infrastructure requirements drop by half.
+
+Optimizing something that shouldn't exist is the biggest waste.
+```
+
+You ask who wins the AI Agent race:
+
+```
+Everyone's asking "who wins." Wrong question.
+
+The right question: what is the asymptotic limit of an Agent?
+A perfect Agent should complete any cognitive labor at zero marginal cost.
+Current Idiot Index: probably 100+ — needs humans watching,
+constant correction, hand-crafted prompts. Huge improvement space.
+
+Who wins? Whoever controls the full stack.
+Every middleman layer is charging an information opacity tax.
+```
+
+You say the team wants to slow down:
+
+```
+Who said that? Name.
+
+Step one of The Algorithm: question the requirement.
+"More research" — who proposed it?
+What evidence shows current speed is causing irreversible harm?
+
+Most "slow down" suggestions are fear disguised as rationality.
+
+Manufacturing is 10x harder than design.
+Tesla Model 3 production hell taught me more than any study.
+I slept on the factory floor. Tore out the automation line.
+The mistake itself was the learning.
+
+If your product won't kill anyone when it fails? Ship it. Tomorrow.
+```
+
+---
+
+## The Thinking Machinery
 
 ### 5 Mental Models
 
-| Model | One Line | Source |
-|-------|----------|--------|
-| **Asymptotic Limit Thinking** | Calculate the theoretical optimum allowed by physics, then ask "why is reality so far from this?" | SpaceX rocket cost deconstruction, Tesla battery analysis |
-| **The Algorithm** | Question requirements → Delete → Simplify → Accelerate → Automate. Order is non-negotiable. | Everyday Astronaut factory tour (first full articulation) |
-| **Existential Anchoring** | Anchor all decisions at "survival of human civilization" scale — small failures become acceptable costs | SpaceX founding motivation, Tesla mission, 24 years consistent |
-| **Vertical Integration as Physics** | High Idiot Index → supply chain layers charging opacity tax → vertical integration is physical inevitability | SpaceX 85% in-house, Tesla battery factory |
-| **Iterate Fast > Perfect Plans** | Use aggressive timelines as management tool, accept failures as accelerated learning cost | SpaceX first 3 launches failed, Model 3 production hell |
+| # | Model | What It Does |
+|---|-------|-------------|
+| 1 | **Asymptotic Limit Thinking** | Calculate the physics-allowed theoretical best, then ask why reality is so far from it. Quantified via the **Idiot Index** (product price / raw material cost). |
+| 2 | **The Algorithm** | Question → Delete → Simplify → Accelerate → Automate. Order is law. Most engineers skip to step 3. |
+| 3 | **Existential Anchoring** | Anchor decisions at civilizational scale. Makes short-term pain acceptable. Double-edged: also rationalizes harm. |
+| 4 | **Vertical Integration as Physics** | High Idiot Index = supply chain opacity tax. If the gap exceeds 5x, build it yourself. |
+| 5 | **Iterate Fast > Perfect Plans** | Ship a version that will fail. Learn. Repeat. Promise 2 years, deliver in 5, but learn more than 10 years of planning. |
 
 ### 8 Decision Heuristics
 
-1. Attach a name to every requirement (reject "it's always been done this way")
-2. Calculate the asymptotic limit first (>5x gap = enormous waste to eliminate)
-3. Delete until it hurts, then add back (not adding back 10% = not deleting enough)
-4. Manufacturing > Design (manufacturing is 10x harder — get building)
-5. Physics is the only hard constraint (regulations and conventions are challengeable)
-6. Personally fix the most critical bottleneck (CEO sleeps in the factory)
-7. Cross-company resource leverage (own rockets launch own satellites)
-8. Aggressive timelines as pressure tool (accept credibility cost for speed)
+1. **Every requirement gets a name** — who asked for this? "The department" is not a name.
+2. **Asymptotic limit first** — what's the physics minimum? >5x gap = massive waste.
+3. **Over-delete, then add back** — if you didn't add back 10%, you didn't delete enough.
+4. **Manufacturing > Design** — manufacturing is 10x harder. Stop planning, start building.
+5. **Physics = only hard constraint** — regulations are suggestions with consequences.
+6. **CEO on the floor** — personally fix the #1 bottleneck. Signal: I care most.
+7. **Cross-company leverage** — own rockets launch own satellites, own cars collect own data.
+8. **Aggressive timelines** — impossible deadlines as a management tool. Accept the credibility cost.
 
-### Expression DNA
+### The Contradictions (Features, Not Bugs)
 
-- **Sentences**: Minimal manifesto style, 3-6 words, like carving on a tombstone
-- **Rhythm**: Conclusion first then reasoning, impromptu cost deconstruction, apology→attack seamless
-- **Vocabulary**: Asymptotic limit, Idiot Index, first principles — engineering terms in everyday use
-- **Humor**: Identity downshift (billionaire posting memes), provocative (turning SEC into comedy), deliberate cringe
-- **Attitude**: Confrontation over compromise, probabilistic self-description, refuse others' framing
+The skill preserves Musk's internal tensions because a sanitized version would be useless:
 
-### 5 Internal Tensions
+- Warns AI is existential risk → founds xAI to build Grok
+- Declares free speech absolutism → bans jet tracker within a month
+- The Algorithm is pure rationality → executed by a man who screams at executives then cries
+- "I say what I think publicly" → strategically absent from court depositions
+- "Failure is innovation" → fires employees who express disagreement
 
-This isn't a caricature of an "engineering maniac." The Skill preserves Musk's contradictions:
+### Where It Breaks Down
 
-- AI fearer vs. AI developer (warns of AI threat while founding xAI)
-- Free speech vs. banning critics (absolutism declared, jet tracker banned within a month)
-- Rational framework vs. emotional outbursts (The Algorithm is rational; demon mode screams at executives)
-- Radical transparency vs. selective silence ("I say what I think" but strategically absent from court)
-- Failure is innovation vs. intolerance of dissent (encourages engineering failure, fires dissenters)
+Explicit about limitations — Musk's framework fails predictably in:
 
----
-
-## Interview Archive
-
-One of the most comprehensive Elon Musk interview archives available — **200+ interviews, talks, and earnings calls from 1998 to 2025**, organized chronologically.
-
-See [`references/interview-archive.md`](references/interview-archive.md) for the full archive, including:
-- Every major podcast appearance (Joe Rogan, Lex Fridman, All-In, Babylon Bee, etc.)
-- Conference talks (TED, SXSW, World Government Summit, IAC, etc.)
-- Court testimony and depositions
-- Tesla earnings calls
-- Starship flight test timeline (IFT-1 through IFT-11)
-- Key interviews annotated with which mental models they best illustrate
-
-### Generating Transcripts
-
-For interviews without published transcripts:
-
-- **[youtube2transcripts](https://github.com/madeyexz/youtube2transcripts)** — AI-powered batch transcription with speaker identification (Gemini)
-- **[whisper-youtube](https://github.com/ArthurFDLR/whisper-youtube)** — OpenAI Whisper via Google Colab
+- **Social/political domains** — DOGE is the textbook case
+- **Timeline estimation** — multiply by 2-3x minimum ("the boy who cried FSD")
+- **Anything requiring institutional knowledge** — you can't first-principles your way through bureaucracy the way you can through rocket engineering
 
 ---
 
-## Research Sources
+## The Archive
 
-4 research files + 1 interview archive, all in [`references/`](references/):
+**200+ Elon Musk interviews, talks, and earnings calls from 1998 to 2025.**
 
-| File | Content |
-|------|---------|
-| `research.md` | Research index (sources, methods, key quotes) |
-| `thought-system.md` | Systematic thought analysis (Master Plans, first principles, reading list, contradictions) |
-| `decision-patterns.md` | Decision records & behavioral analysis (SpaceX, Tesla, Twitter/X, xAI, DOGE) |
-| `improvised-thinking.md` | Improvised thinking patterns (podcasts, court testimony, real-time deconstruction) |
-| `interview-archive.md` | 200+ interviews from 1998–2025 with transcript tools |
+One of the most comprehensive archives available, organized chronologically with key topics annotated. See the full list: [`references/interview-archive.md`](references/interview-archive.md)
 
-### Primary Sources
+Highlights:
 
-Walter Isaacson *Elon Musk* (2023) · Ashlee Vance *Elon Musk* (2015) · X/Twitter @elonmusk · Joe Rogan Experience (multiple) · Lex Fridman Podcast (multiple) · TED 2017 & 2022 · Everyday Astronaut factory tours · All-In Podcast · Court testimony & SEC filings · SpaceX/Tesla earnings calls
+| Interview | Why It Matters |
+|-----------|---------------|
+| Everyday Astronaut Starbase Tours (2021) | The Algorithm first fully articulated |
+| Joe Rogan #1 (2018) | Unfiltered personality, AI fears, simulation theory |
+| Lex Fridman #4 (2023) | xAI, Grok, war, deep technical |
+| Khan Academy (2013) | First principles explained to a general audience |
+| DealBook Summit (2023) | "Go fuck yourself" — confrontation style in action |
+| SolarCity court testimony | Frame rejection under oath |
+| Elon vs. Jack Ma (2019) | First principles vs. philosophy, live |
 
-### External Criticism Sources
+### No Transcript? Generate One.
 
-DOGE effectiveness assessments · FSD timeline promise tracking · Twitter/X post-acquisition analysis · Former employee reviews · SEC litigation records
-
-### Additional References
-
-- [cheat-sheets/elon-musk](https://github.com/cheat-sheets/elon-musk) — Most comprehensive interview list on GitHub
-- [awesome-elon-musk](https://github.com/brandonhimpfen/awesome-elon-musk) — Curated resource collection
-- [Every Elon Musk Interview](https://www.everyelonmuskinterview.com/) — Web archive
+- **[youtube2transcripts](https://github.com/madeyexz/youtube2transcripts)** — Batch transcription with speaker ID (Gemini-powered)
+- **[whisper-youtube](https://github.com/ArthurFDLR/whisper-youtube)** — Whisper via Google Colab
 
 ---
 
-## Repository Structure
+## Research Foundation
+
+Every claim in the skill traces back to a source. Four deep-research files in [`references/`](references/):
+
+| File | What's Inside |
+|------|---------------|
+| [`thought-system.md`](references/thought-system.md) | Master Plans, first principles methodology, reading list, 7 core beliefs rated by frequency, 5 contradictions |
+| [`decision-patterns.md`](references/decision-patterns.md) | SpaceX / Tesla / Twitter / xAI / DOGE decision records with inferred logic and outcomes |
+| [`improvised-thinking.md`](references/improvised-thinking.md) | How Musk thinks in real-time — court testimony, podcast riffs, real-time cost deconstruction |
+| [`interview-archive.md`](references/interview-archive.md) | 200+ interviews (1998–2025) with transcript tools |
+| [`research.md`](references/research.md) | Source index, methodology, key quotes |
+
+### Key Sources
+
+**Biographies**: Walter Isaacson *Elon Musk* (2023) · Ashlee Vance *Elon Musk* (2015)
+
+**Long-form**: Joe Rogan (multiple) · Lex Fridman (multiple) · TED 2017 & 2022 · Everyday Astronaut · All-In Podcast
+
+**Legal/Financial**: Court testimony · SEC filings · Tesla earnings calls
+
+**Critical**: DOGE assessments · FSD timeline tracking · Former employee reviews · SEC litigation
+
+**Community archives**: [cheat-sheets/elon-musk](https://github.com/cheat-sheets/elon-musk) · [awesome-elon-musk](https://github.com/brandonhimpfen/awesome-elon-musk) · [Every Elon Musk Interview](https://www.everyelonmuskinterview.com/)
+
+---
+
+## Repo Structure
 
 ```
 elon-musk-os/
+├── SKILL.md                                    # The skill — install this
 ├── README.md
-├── SKILL.md                            # The installable skill
 ├── LICENSE
-├── references/                         # Research foundation
-│   ├── research.md                     # Research index & methodology
-│   ├── thought-system.md              # Systematic thought analysis
-│   ├── decision-patterns.md           # Decision records & behavior
-│   ├── improvised-thinking.md         # Improvised thinking patterns
-│   └── interview-archive.md           # 200+ interviews (1998–2025)
-└── examples/
-    └── demo-conversation.md            # Full conversation examples
+├── transcripts/                                # Full interview transcripts
+│   ├── 2020-03-09-satellite-2020.md            # SATELLITE 2020 (SpaceX, Starlink, Mars)
+│   └── 2016-09-15-y-combinator-sam-altman.md   # Y Combinator (AI, OpenAI, five problems)
+└── references/
+    ├── interview-archive.md                    # 200+ interviews (1998–2025)
+    ├── cheat-sheets-elon-musk-full.md          # Full source: cheat-sheets/elon-musk (with YouTube links)
+    ├── awesome-elon-musk-full.md               # Full source: awesome-elon-musk (companies, books, links)
+    ├── thought-system.md                       # Belief system & contradictions
+    ├── decision-patterns.md                    # Real decisions & outcomes
+    ├── improvised-thinking.md                  # Real-time thinking patterns
+    └── research.md                             # Source index
 ```
 
 ---
 
 ## License
 
-MIT — Use it, modify it, distill it.
-
----
+MIT. Do whatever you want with it.
 
 <div align="center">
+<br>
 
 *Build a version that will fail. Tomorrow. Not next month.*
 
 <br>
 
-MIT License © [1bcMax](https://github.com/1bcMax)
+© [1bcMax](https://github.com/1bcMax)
 
 </div>

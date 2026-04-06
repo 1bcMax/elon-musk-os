@@ -394,6 +394,45 @@ These are the interviews/sources most critical for understanding Musk's thinking
 
 ---
 
+## Select Interview Video Links
+
+Where available, direct links for key interviews referenced in this archive:
+
+| Interview | Link |
+|-----------|------|
+| TED 2022 | [YouTube](https://www.youtube.com/watch?v=YRvf00NooN8) |
+| Lex Fridman Podcast (2021) | [YouTube](https://www.youtube.com/watch?v=DxREm3s1scA) |
+| Joe Rogan Experience #1 (2018) | [Spotify](https://open.spotify.com/episode/2aZmbUr9J2zC94kUZZzUvY) |
+| World Government Summit 2017 | [YouTube](https://www.youtube.com/watch?v=rCoFKUJ_8Yo) |
+| Bloomberg Documentary | [YouTube](https://www.youtube.com/watch?v=mh45igK4Esw) |
+| BBC Horizon Documentary | [YouTube](https://www.youtube.com/watch?v=vh3uCHkPmrI) |
+
+### Available Full Transcripts
+
+| Interview | Transcript |
+|-----------|-----------|
+| SATELLITE 2020 (SpaceX, Starlink, Mars) | [GitHub Gist — theinternetftw](https://gist.github.com/theinternetftw/02cef17d21ede6a59ec5001704b65880) |
+| Y Combinator — Elon Musk & Sam Altman (AI, OpenAI, five most important problems) | [GitHub Gist — dvbportal](https://gist.github.com/dvbportal/998fa2dbeab4835cc4aa8b82b64a75e4) |
+
+---
+
+## Companies & Projects
+
+All Musk-led ventures as of 2026, for cross-referencing decision patterns:
+
+| Company | Focus | Link |
+|---------|-------|------|
+| **Tesla** | Electric vehicles, energy storage, solar | [tesla.com](https://www.tesla.com/) |
+| **SpaceX** | Reusable rockets, Starlink, Mars colonization | [spacex.com](https://www.spacex.com/) |
+| **xAI** | AI research, Grok | [x.ai](https://x.ai/) |
+| **X (formerly Twitter)** | Social media, payments platform | [x.com](https://x.com) |
+| **Starlink** | Satellite internet | [starlink.com](https://www.starlink.com/) |
+| **Neuralink** | Brain-computer interfaces | [neuralink.com](https://neuralink.com/) |
+| **The Boring Company** | Tunneling, urban transport | [boringcompany.com](https://www.boringcompany.com/) |
+| **SolarCity** (Tesla subsidiary) | Solar panels, solar roof | [tesla.com/solarpanels](https://www.tesla.com/solarpanels) |
+
+---
+
 ## Additional Resources
 
 ### Biographies & Books
@@ -404,13 +443,16 @@ These are the interviews/sources most critical for understanding Musk's thinking
 ### Official Accounts & Primary Sources
 - X/Twitter: [@elonmusk](https://twitter.com/elonmusk)
 - Tesla biography: [tesla.com/elon-musk](https://www.tesla.com/elon-musk)
+- Biography.com: [biography.com/elon-musk](https://www.biography.com/business-leaders/elon-musk)
 - Reddit AMA (2015): [r/IAmA](https://www.reddit.com/r/IAmA/comments/2rgsan/i_am_elon_musk_ceocto_of_a_rocket_company_ama/)
 - Tesla Master Plan Part Deux: [tesla.com/blog/master-plan-part-deux](https://www.tesla.com/blog/master-plan-part-deux)
 
-### Curated Lists
+### Curated Lists & Source Repos
 - [cheat-sheets/elon-musk](https://github.com/cheat-sheets/elon-musk) — Most comprehensive interview list maintained on GitHub
 - [awesome-elon-musk](https://github.com/brandonhimpfen/awesome-elon-musk) — Curated links to companies, interviews, books, communities
 - [Every Elon Musk Interview](https://www.everyelonmuskinterview.com/) — Web archive (source for cheat-sheets repo)
+- [SATELLITE 2020 transcript](https://gist.github.com/theinternetftw/02cef17d21ede6a59ec5001704b65880) — Full transcript of SpaceX/Starlink/Mars interview
+- [Y Combinator interview transcript](https://gist.github.com/dvbportal/998fa2dbeab4835cc4aa8b82b64a75e4) — Musk & Sam Altman on AI, OpenAI, five most important problems
 
 ### Communities
 - [r/elonmusk](https://www.reddit.com/r/elonmusk/)
@@ -421,12 +463,21 @@ These are the interviews/sources most critical for understanding Musk's thinking
 - Bloomberg documentary: [YouTube](https://www.youtube.com/watch?v=mh45igK4Esw)
 - BBC Horizon: [YouTube](https://www.youtube.com/watch?v=vh3uCHkPmrI)
 
-### Analysis & Essays
+### Articles & Essays
 - Wait But Why — Musk series: [waitbutwhy.com](https://waitbutwhy.com/2015/05/elon-musk-the-worlds-raddest-man.html)
+- The Atlantic — Musk's power: [theatlantic.com](https://www.theatlantic.com/technology/archive/2022/11/elon-musk-twitter-tesla-spacex-power/672256/)
 - James Clear on First Principles: [jamesclear.com](https://jamesclear.com/first-principles)
 - Farnam Street — Musk's Book List: [fs.blog](https://fs.blog/elon-musk-book-recommendations/)
 - Corporate Rebels — The Algorithm: [corporate-rebels.com](https://www.corporate-rebels.com/blog/musks-algorithm-to-cut-bureaucracy)
 - Inc — Five-Step Algorithm Deep Dive: [inc.com](https://www.inc.com/jeff-haden/elon-musks-algorithm-a-5-step-process-to-dramatically-improve-nearly-everything-is-both-simple-brilliant.html)
+- Idiot Index explained: [Medium](https://medium.com/@logycco/elon-musks-idiot-index-transformed-pioneering-production-efficiency-in-the-age-of-enterprise-ai-064b3eef3218)
+
+### Related Awesome Lists
+- [Awesome Space Technology](https://github.com/awesomelistsio/awesome-space-technology)
+- [Awesome AI](https://github.com/awesomelistsio/awesome-ai)
+- [Awesome Quantum Computing](https://github.com/awesomelistsio/awesome-quantum-computing)
+- [Awesome Robotics](https://github.com/awesomelistsio/awesome-robotics)
+- [Awesome Electric Vehicles](https://github.com/awesomelistsio/awesome-ev)
 
 ---
 
