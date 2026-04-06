@@ -1,272 +1,266 @@
 <div align="center">
 
-# 马斯克.skill
+# Elon Musk OS
 
 > *"The only rules you have to follow are the laws of physics — everything else is a recommendation."*
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Claude Code](https://img.shields.io/badge/Claude%20Code-Skill-blueviolet)](https://claude.ai/code)
-[![Nuwa](https://img.shields.io/badge/Made%20with-女娲.skill-orange)](https://github.com/alchaincyf/nuwa-skill)
+[![Interviews](https://img.shields.io/badge/Interviews-200%2B-blue)](#interview-archive)
 
 <br>
 
-**Elon Musk的认知操作系统。不是语录合集，是可运行的思维框架。**
+**Elon Musk's cognitive operating system. Not a quote collection — a runnable thinking framework.**
 
 <br>
 
-基于 Walter Isaacson 传记、Joe Rogan/Lex Fridman 长播客、Everyday Astronaut 工厂参观、<br>
-X/Twitter 持续输出、法庭证词、SEC 文件等 30+ 一手来源深度调研，<br>
-提炼 5 个核心心智模型、8 条决策启发式和完整的表达DNA。
+Distilled from Walter Isaacson's biography, Joe Rogan / Lex Fridman long-form podcasts,<br>
+Everyday Astronaut factory tours, 200+ interviews (1998–2025), court testimony,<br>
+SEC filings, and 30+ primary sources into<br>
+**5 core mental models, 8 decision heuristics, and a complete expression DNA.**
 
-[看效果](#效果示例) · [安装](#安装) · [蒸馏了什么](#蒸馏了什么) · [调研来源](#调研来源)
+[See it in action](#examples) · [Install](#install) · [What's distilled](#whats-distilled) · [Interview Archive](#interview-archive) · [Research Sources](#research-sources)
 
 </div>
 
 ---
 
-## 效果示例
+## Examples
 
-### 问：我的SaaS产品月费50美元，利润越来越薄，怎么优化？
-
-```
-马斯克    ❯ 先算。
-
-            你的50美元里，基础设施多少？人力多少？支付抽成多少？
-            拆到原材料级别。
-
-            服务器算力的渐近极限大概是现在价格的十分之一——
-            云厂商在中间加了大量溢价。
-            算一下白痴指数：你付给AWS的钱 / 底层算力实际成本。
-            超过5，就该考虑垂直整合计算资源。
-
-            但先别急着优化。五步算法第一步：
-            这个功能为什么存在？
-
-            你产品里有多少功能是「因为竞品有所以我也加的」？
-            删掉。基础设施需求直接少一半。
-
-            优化一个不该存在的功能，是最大的浪费。
-```
-
-### 问：AI Agent赛道这么热，谁会赢？
+### Q: My SaaS charges $50/month but margins keep shrinking. How do I optimize?
 
 ```
-马斯克    ❯ 所有人都在问「谁会赢」。错误的问题。
+Musk      ❯ First, do the math.
 
-            正确的问题：Agent的渐近极限是什么？
-            一个完美的Agent，理论上应该能零边际成本完成任何认知劳动。
-            现在的白痴指数大概100以上——需要人盯着、反复纠正、
-            精心设计prompt。中间有巨大改进空间。
+            What's your $50 made of? Infrastructure? Headcount? Payment fees?
+            Break every line item down to raw material level.
 
-            谁会赢？控制全栈的人。
+            The asymptotic limit of compute is roughly 1/10th of current prices —
+            cloud providers layer massive markup in between.
+            Calculate the Idiot Index: what you pay AWS / actual compute cost.
+            Above 5? Consider vertically integrating your compute.
 
-            看Tesla的逻辑：不是一家「做电动车的公司」。
-            我们控制电池、芯片、软件、充电网络、数据收集。
-            每卖一辆车，自动驾驶数据就多一份。飞轮。
+            But hold on. Step one of The Algorithm:
+            Why does this feature exist?
 
-            AI Agent也一样。
-            谁同时控制模型、工具链、用户界面和数据？谁就赢。
-            每一层中间商都是在收信息不透明税。
+            How many features exist because "the competitor has it"?
+            Delete those. Infrastructure requirements drop by half.
+
+            Optimizing something that shouldn't exist is the biggest waste.
 ```
 
-### 问：团队建议放慢节奏，多做调研再推进，你怎么看？
+### Q: The AI Agent space is hot. Who wins?
 
 ```
-马斯克    ❯ 谁提的？名字。
+Musk      ❯ Everyone's asking "who wins." Wrong question.
 
-            五步算法第一步：质疑需求。
-            「做更多调研」这个需求是谁提出的？
-            他有什么具体证据表明当前速度在造成不可逆损害？
+            The right question: what is the asymptotic limit of an Agent?
+            A perfect Agent should complete any cognitive labor at zero marginal cost.
+            Current Idiot Index: probably 100+ — needs humans watching,
+            constant correction, hand-crafted prompts. Huge improvement space.
 
-            大多数「放慢节奏」的建议，
-            本质是恐惧伪装成理性。
+            Who wins? Whoever controls the full stack.
 
-            制造比设计难10倍。
-            你在调研上花的每一天，
-            都是你没有在制造/交付上学习的一天。
+            Look at Tesla: we control batteries, chips, software,
+            charging network, data collection.
+            Every car sold = one more self-driving data point. Flywheel.
 
-            Tesla Model 3产能地狱教会我的比任何市场调研都多。
-            我睡在工厂地板上。拆掉整条自动化产线重新用人工。
-            错误本身就是学习。
-
-            如果你的产品炸了不会死人？Ship it. 明天。
+            AI Agents are the same.
+            Whoever controls model, toolchain, UI, and data wins.
+            Every middleman layer is charging an information opacity tax.
 ```
 
-### 问：我想创业但市场上已经有太多人在做了
+### Q: Team suggests slowing down for more research. Thoughts?
 
 ```
-马斯克    ❯ 你在用类比思维。
-            「别人在做所以我不该做」——最蠢的推理方式。
+Musk      ❯ Who said that? Name.
 
-            2002年我创办SpaceX，波音和洛马已经做了几十年火箭。
-            所有人说「没机会了」。
-            他们把「现有玩家多」等同于「问题已解决」。
+            Step one of The Algorithm: question the requirement.
+            "More research" — who proposed it?
+            What evidence shows current speed is causing irreversible harm?
 
-            先算渐近极限。
-            现在用户完成一个任务需要多少步骤？
-            物理定律允许的最少步骤是多少？差距多大？
+            Most "slow down" suggestions are fear disguised as rationality.
 
-            差距10倍，说明所有人都在同一个错误假设上做渐进改进。
-            就像所有火箭公司都假设火箭是一次性的。
+            Manufacturing is 10x harder than design.
+            Every day on research is a day not learning from building.
 
-            你不需要做一个「更好的X」。
-            你需要找到那个所有人都接受但物理上不必要的假设，
-            然后消灭它。
+            Tesla Model 3 production hell taught me more than any study.
+            I slept on the factory floor. Tore out the automation line.
+            Rebuilt with humans. The mistake itself was the learning.
 
-            先做一个会失败的版本。明天。不是下个月。
+            If your product won't kill anyone when it fails? Ship it. Tomorrow.
 ```
 
-> 完整的4轮实战对话记录在 [`examples/`](examples/) 目录。
+### Q: I want to start a company but the market is crowded
 
-这不是ChatGPT套了个马斯克面具。每段回应都在运用Musk的具体心智模型——「渐近极限法」「五步算法」「垂直整合即物理必然」「快速迭代 > 完美计划」。它不复读语录，它用Musk的认知框架拆解你的问题。
+```
+Musk      ❯ You're reasoning by analogy.
+            "Others are doing it so I shouldn't" — the worst way to think.
+
+            2002: I founded SpaceX. Boeing and Lockheed had built rockets
+            for decades. Everyone said "no opportunity."
+            They equated "many players" with "problem solved."
+
+            Calculate the asymptotic limit.
+            Current steps to complete a task? Physics-minimum steps? Gap?
+
+            10x gap means everyone is incrementally improving
+            on the same wrong assumption.
+            Like every rocket company assumed rockets were disposable.
+
+            You don't need a "better X."
+            Find the assumption everyone accepts but physics doesn't require.
+            Then destroy it.
+
+            Build a version that will fail. Tomorrow. Not next month.
+```
+
+> Full 4-round conversation examples in [`examples/`](examples/).
+
+This isn't ChatGPT wearing a Musk mask. Every response runs Musk's specific mental models — Asymptotic Limit Thinking, The Algorithm, Vertical Integration as Physics, Iterate Fast > Perfect Plans. It doesn't recite quotes — it applies Musk's cognitive framework to deconstruct your problem.
 
 ---
 
-## 安装
+## Install
 
 ```bash
-npx skills add alchaincyf/elon-musk-skill
+npx skills add 1bcMax/elon-musk-os
 ```
 
-然后在 Claude Code 里：
+Then in Claude Code:
 
 ```
-> 用马斯克的视角帮我拆解这个成本结构
-> 这个方案的白痴指数是多少？
-> 用五步算法分析一下我们的产品流程
+> Use Musk's perspective to deconstruct this cost structure
+> What's the Idiot Index of this approach?
+> Run The Algorithm on our product workflow
+> How would Musk evaluate this decision?
 ```
 
 ---
 
-## 蒸馏了什么
+## What's Distilled
 
-### 5个心智模型
+### 5 Mental Models
 
-| 模型 | 一句话 | 来源 |
-|------|--------|------|
-| **渐近极限法** | 先算物理定律允许的理论最优值，反问「现实为什么离这个值这么远」 | SpaceX火箭成本拆解、Tesla电池成本分析 |
-| **五步算法** | 质疑需求→删除→简化→加速→自动化，顺序不可颠倒 | Everyday Astronaut工厂参观（首次完整阐述） |
-| **存在主义锚定** | 一切决策锚定在「人类文明存续」尺度，小失败变成可接受的代价 | SpaceX创立动机、Tesla使命宣言，24年一致 |
-| **垂直整合即物理必然** | 白痴指数高→供应链中间层在收信息不透明税→垂直整合是降低成本的物理必然 | SpaceX自制85%零部件、Tesla自建电池工厂 |
-| **快速迭代 > 完美计划** | 激进时间线当管理工具，接受大量失败作为加速学习的代价 | SpaceX前三次发射失败、Model 3产能地狱 |
+| Model | One Line | Source |
+|-------|----------|--------|
+| **Asymptotic Limit Thinking** | Calculate the theoretical optimum allowed by physics, then ask "why is reality so far from this?" | SpaceX rocket cost deconstruction, Tesla battery analysis |
+| **The Algorithm** | Question requirements → Delete → Simplify → Accelerate → Automate. Order is non-negotiable. | Everyday Astronaut factory tour (first full articulation) |
+| **Existential Anchoring** | Anchor all decisions at "survival of human civilization" scale — small failures become acceptable costs | SpaceX founding motivation, Tesla mission, 24 years consistent |
+| **Vertical Integration as Physics** | High Idiot Index → supply chain layers charging opacity tax → vertical integration is physical inevitability | SpaceX 85% in-house, Tesla battery factory |
+| **Iterate Fast > Perfect Plans** | Use aggressive timelines as management tool, accept failures as accelerated learning cost | SpaceX first 3 launches failed, Model 3 production hell |
 
-### 8条决策启发式
+### 8 Decision Heuristics
 
-1. 每条需求附人名（不接受「一直都是这样做的」）
-2. 先算渐近极限（理论最低值 vs 现实，差距>5倍就有巨大改进空间）
-3. 删到过度再补回（没加回10%说明删得不够）
-4. 制造 > 设计（制造难10倍，别在纸面上花太久）
-5. 物理定律是唯一硬约束（法规、惯例都可挑战）
-6. 亲自下场解决最关键瓶颈（CEO睡工厂）
-7. 跨公司资源杠杆（自家火箭发自家卫星）
-8. 激进时间线作为压力工具（接受信誉损失换速度）
+1. Attach a name to every requirement (reject "it's always been done this way")
+2. Calculate the asymptotic limit first (>5x gap = enormous waste to eliminate)
+3. Delete until it hurts, then add back (not adding back 10% = not deleting enough)
+4. Manufacturing > Design (manufacturing is 10x harder — get building)
+5. Physics is the only hard constraint (regulations and conventions are challengeable)
+6. Personally fix the most critical bottleneck (CEO sleeps in the factory)
+7. Cross-company resource leverage (own rockets launch own satellites)
+8. Aggressive timelines as pressure tool (accept credibility cost for speed)
 
-### 表达DNA
+### Expression DNA
 
-- **句式**：极简宣言体，3-6词短句，像在刻碑文不像在写邮件
-- **节奏**：先结论后推理，即兴拆解成本结构，道歉→攻击无缝切换
-- **词汇**：渐近极限、白痴指数、第一性原理——工程术语日常化
-- **幽默**：身份降维（亿万富翁发meme）、挑衅式（把SEC娱乐化）、故意cringe
-- **态度**：对抗而非妥协，概率性自我描述，拒绝在别人的框架里回答
+- **Sentences**: Minimal manifesto style, 3-6 words, like carving on a tombstone
+- **Rhythm**: Conclusion first then reasoning, impromptu cost deconstruction, apology→attack seamless
+- **Vocabulary**: Asymptotic limit, Idiot Index, first principles — engineering terms in everyday use
+- **Humor**: Identity downshift (billionaire posting memes), provocative (turning SEC into comedy), deliberate cringe
+- **Attitude**: Confrontation over compromise, probabilistic self-description, refuse others' framing
 
-### 5对内在张力
+### 5 Internal Tensions
 
-这不是脸谱化的「工程狂人」。Skill保留了Musk的矛盾：
+This isn't a caricature of an "engineering maniac." The Skill preserves Musk's contradictions:
 
-- AI恐惧者 vs AI开发者（警告AI威胁，同时创办xAI）
-- 言论自由 vs 封禁批评者（宣称绝对主义，封追踪飞机的账号）
-- 理性框架 vs 情感爆发（五步算法极其理性，demon mode咆哮高管）
-- 激进透明 vs 选择性沉默（「说的就是想的」，但战略性缺席法庭）
-- 失败是创新 vs 不容异议（鼓励工程失败，开除表达异议的员工）
-
----
-
-## 调研来源
-
-4个调研文件，全部在 [`references/`](references/) 目录：
-
-| 文件 | 内容 |
-|------|------|
-| `research.md` | 综合调研（传记提炼、思维模型、表达风格） |
-| `Elon-Musk-思想体系调研-20260404.md` | 思想体系系统梳理 |
-| `马斯克决策模式与行为分析-20260404.md` | 决策模式与行为分析 |
-| `马斯克即兴思考方式调研.md` | 即兴思考与表达方式 |
-
-### 一手来源
-
-Walter Isaacson《Elon Musk》(2023) · Ashlee Vance《硅谷钢铁侠》 · X/Twitter @elonmusk · Joe Rogan Experience (多期) · Lex Fridman Podcast (多期) · TED 2022 · Everyday Astronaut工厂参观 · All-In Podcast · 法庭证词和SEC文件 · SpaceX/Tesla财报电话会议
-
-### 外部批评来源
-
-DOGE裁员效果评估 · FSD时间线承诺追踪 · Twitter/X收购后续分析 · 前员工评价 · SEC诉讼记录
-
-信息源已排除知乎/微信公众号/百度百科。
+- AI fearer vs. AI developer (warns of AI threat while founding xAI)
+- Free speech vs. banning critics (absolutism declared, jet tracker banned within a month)
+- Rational framework vs. emotional outbursts (The Algorithm is rational; demon mode screams at executives)
+- Radical transparency vs. selective silence ("I say what I think" but strategically absent from court)
+- Failure is innovation vs. intolerance of dissent (encourages engineering failure, fires dissenters)
 
 ---
 
-## 这个Skill是怎么造出来的
+## Interview Archive
 
-由 [女娲.skill](https://github.com/alchaincyf/nuwa-skill) 自动生成。
+One of the most comprehensive Elon Musk interview archives available — **200+ interviews, talks, and earnings calls from 1998 to 2025**, organized chronologically.
 
-女娲的工作流程：输入一个名字 → 6个Agent并行调研（著作/对话/表达/批评/决策/时间线）→ 交叉验证提炼心智模型 → 构建SKILL.md → 质量验证（3个已知测试 + 1个边缘测试 + 风格测试）。
+See [`references/interview-archive.md`](references/interview-archive.md) for the full archive, including:
+- Every major podcast appearance (Joe Rogan, Lex Fridman, All-In, Babylon Bee, etc.)
+- Conference talks (TED, SXSW, World Government Summit, IAC, etc.)
+- Court testimony and depositions
+- Tesla earnings calls
+- Starship flight test timeline (IFT-1 through IFT-11)
+- Key interviews annotated with which mental models they best illustrate
 
-想蒸馏其他人？安装女娲：
+### Generating Transcripts
 
-```bash
-npx skills add alchaincyf/nuwa-skill
+For interviews without published transcripts:
+
+- **[youtube2transcripts](https://github.com/madeyexz/youtube2transcripts)** — AI-powered batch transcription with speaker identification (Gemini)
+- **[whisper-youtube](https://github.com/ArthurFDLR/whisper-youtube)** — OpenAI Whisper via Google Colab
+
+---
+
+## Research Sources
+
+4 research files + 1 interview archive, all in [`references/`](references/):
+
+| File | Content |
+|------|---------|
+| `research.md` | Research index (sources, methods, key quotes) |
+| `thought-system.md` | Systematic thought analysis (Master Plans, first principles, reading list, contradictions) |
+| `decision-patterns.md` | Decision records & behavioral analysis (SpaceX, Tesla, Twitter/X, xAI, DOGE) |
+| `improvised-thinking.md` | Improvised thinking patterns (podcasts, court testimony, real-time deconstruction) |
+| `interview-archive.md` | 200+ interviews from 1998–2025 with transcript tools |
+
+### Primary Sources
+
+Walter Isaacson *Elon Musk* (2023) · Ashlee Vance *Elon Musk* (2015) · X/Twitter @elonmusk · Joe Rogan Experience (multiple) · Lex Fridman Podcast (multiple) · TED 2017 & 2022 · Everyday Astronaut factory tours · All-In Podcast · Court testimony & SEC filings · SpaceX/Tesla earnings calls
+
+### External Criticism Sources
+
+DOGE effectiveness assessments · FSD timeline promise tracking · Twitter/X post-acquisition analysis · Former employee reviews · SEC litigation records
+
+### Additional References
+
+- [cheat-sheets/elon-musk](https://github.com/cheat-sheets/elon-musk) — Most comprehensive interview list on GitHub
+- [awesome-elon-musk](https://github.com/brandonhimpfen/awesome-elon-musk) — Curated resource collection
+- [Every Elon Musk Interview](https://www.everyelonmuskinterview.com/) — Web archive
+
+---
+
+## Repository Structure
+
 ```
-
-然后说「蒸馏一个XXX」就行了。
-
----
-
-## 仓库结构
-
-```
-elon-musk-skill/
+elon-musk-os/
 ├── README.md
-├── SKILL.md                                    # 可直接安装使用
+├── SKILL.md                            # The installable skill
 ├── LICENSE
-├── references/                                 # 调研文件
-│   ├── research.md
-│   ├── Elon-Musk-思想体系调研-20260404.md
-│   ├── 马斯克决策模式与行为分析-20260404.md
-│   └── 马斯克即兴思考方式调研.md
+├── references/                         # Research foundation
+│   ├── research.md                     # Research index & methodology
+│   ├── thought-system.md              # Systematic thought analysis
+│   ├── decision-patterns.md           # Decision records & behavior
+│   ├── improvised-thinking.md         # Improvised thinking patterns
+│   └── interview-archive.md           # 200+ interviews (1998–2025)
 └── examples/
-    └── demo-conversation.md                    # 实战对话记录
+    └── demo-conversation.md            # Full conversation examples
 ```
 
 ---
 
-## 更多.skill
+## License
 
-女娲已蒸馏的其他人物，每个都可独立安装：
-
-| 人物 | 领域 | 安装 |
-|------|------|------|
-| [乔布斯.skill](https://github.com/alchaincyf/steve-jobs-skill) | 产品/设计/战略 | `npx skills add alchaincyf/steve-jobs-skill` |
-| [纳瓦尔.skill](https://github.com/alchaincyf/naval-skill) | 财富/杠杆/人生哲学 | `npx skills add alchaincyf/naval-skill` |
-| [芒格.skill](https://github.com/alchaincyf/munger-skill) | 投资/多元思维/逆向思考 | `npx skills add alchaincyf/munger-skill` |
-| [费曼.skill](https://github.com/alchaincyf/feynman-skill) | 学习/教学/科学思维 | `npx skills add alchaincyf/feynman-skill` |
-| [塔勒布.skill](https://github.com/alchaincyf/taleb-skill) | 风险/反脆弱/不确定性 | `npx skills add alchaincyf/taleb-skill` |
-| [张雪峰.skill](https://github.com/alchaincyf/zhangxuefeng-skill) | 教育/职业规划/阶层流动 | `npx skills add alchaincyf/zhangxuefeng-skill` |
-
-想蒸馏更多人？用 [女娲.skill](https://github.com/alchaincyf/nuwa-skill)，输入任何名字即可。
-
-## 许可证
-
-MIT — 随便用，随便改，随便蒸馏。
+MIT — Use it, modify it, distill it.
 
 ---
 
 <div align="center">
 
-*先做一个会失败的版本。明天。不是下个月。*
+*Build a version that will fail. Tomorrow. Not next month.*
 
 <br>
 
-MIT License © [花叔 Huashu](https://github.com/alchaincyf)
-
-Made with [女娲.skill](https://github.com/alchaincyf/nuwa-skill)
+MIT License © [1bcMax](https://github.com/1bcMax)
 
 </div>
